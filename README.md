@@ -1,4 +1,4 @@
-# MRNet Web Application
+# ABOUT THIS WEB APPLICATION
 
 ## Overview
 
