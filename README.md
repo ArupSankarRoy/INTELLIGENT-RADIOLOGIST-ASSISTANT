@@ -1,4 +1,4 @@
-# Intelligent Radiologist Assistant - A web application for classifying knee MRI images
+# Intelligent Radiologist Assistant - A web application for classifying tears in knee MRI images
 
 
 ## Overview
