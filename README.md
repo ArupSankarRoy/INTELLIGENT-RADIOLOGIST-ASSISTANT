@@ -22,6 +22,10 @@ MRNet is a web application designed to analyze MRI scans for the detection of te
 
 - **Analysis**:
   - In-depth analysis of tear types, providing insights into their severity and probability.
+ 
+## Workflow of this web application
+![workflow_diagram](https://github.com/ArupSankarRoy/INTELLIGENT-RADIOLOGIST-ASSISTANT/assets/115450599/a2067030-2178-4fc8-9030-daecb4feb40b)
+
 
 ## Installation
 
