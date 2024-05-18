@@ -64,10 +64,6 @@ MRNet utilizes two main models:
 
 Contributions to the MRNet project are welcome. Please create a pull request or open an issue if you have suggestions or find any bugs.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
 ---
 
 For more information, refer to the [project documentation](https://github.com/yourusername/mrnet-webapp/wiki). Developed as an internship project at iNeuron Intelligence Pvt. Ltd.
