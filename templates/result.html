@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yanone+Kaffeesatz:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59, #ff0080);
+            margin: 0;
+            padding: 0;
+            color: #e0e0e0;
+            animation: backgroundAnimation 10s ease infinite;
+            background-size: 200% 200%;
+        }
+        @keyframes backgroundAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background: rgba(46, 46, 46, 0.6);
+            border-radius: 12px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+            animation: fadeIn 1.5s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1, h2 {
+            font-family: "Titillium Web", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+            color: #ffcc00;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            animation: textAnimation 1s ease;
+        }
+        @keyframes textAnimation {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        p {
+            color: #cccccc;
+            line-height: 1.8;
+            animation: fadeInText 2s ease;
+        }
+        @keyframes fadeInText {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: fadeInImage 2s ease;
+        }
+        @keyframes fadeInImage {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+        }
+        .plot-container {
+            text-align: center;
+        }
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #ffd700;
+            text-decoration: underline;
+        }
+        .header {
+            font-family: "Roboto Condensed", sans-serif;
+            font-optical-sizing: auto;
+            font-style: normal;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 5px 10px; 
+            color: #fff;
+            font-size: 18px; 
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+            background: rgba(0, 0, 0, 0.3); 
+            border: 1px solid #fff; 
+            border-radius: 9px; 
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .header:hover {
+            transform: scale(1.05); /* Slightly enlarge the header on hover */
+            background: rgba(0, 0, 0, 0.9); /* Darker background on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="header">iNeuron Intelligence Pvt. Ltd.</div>
+    <div class="container">
+        <h1>PREDICTION RESULTS</h1>
+        
+        <h2>CSV OUTPUT</h2>
+        <p>{{ csv_data | safe }}</p>
+
+        <!--
+        <h2>Prediction Result</h2>
+        <p>{{ prediction_result }}</p>
+        -->
+
+        <div class="plot-container">
+            <h2>PREDICTION PLOTS</h2>
+            <img src="{{ plot_path }}" alt="Prediction Plot">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
