@@ -87,8 +87,8 @@ MRNet utilizes two main models:
 
 ## Usage
 
-1. **Upload MRI Images**: Navigate to the upload section and upload the required files.
-2. **Generate Report**: After uploading, click on the "Generate Report" button to process the images and view the results.
+1. **Upload MRI Planes and a blank csv file**: Navigate to the upload section and upload the required files.
+2. **Generate Report**: After uploading, click on the "predict" button to process the planes and csv file and view the results.
 3. **View Analysis**: The report page will display detailed analysis through various visualizations and probability metrics.
 
 ## Contributing
