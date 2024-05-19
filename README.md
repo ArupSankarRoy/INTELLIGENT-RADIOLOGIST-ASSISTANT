@@ -30,7 +30,7 @@ This a web application designed to analyze knee MRI scans for the detection of t
 
 ## Installation
 
-To install and run the MRNet web application locally, follow these steps:
+To install and run the this web app locally, follow these steps:
 1. **Create a database**:
     ```sh
     -- I'm using MySQL database here
@@ -72,8 +72,12 @@ To install and run the MRNet web application locally, follow these steps:
    python app.py
    ```
 ### Note: These steps will only run if your Python version is <=3.11.0. To check your Python version, use `$ python --version`.
-## Model Description
 
+## Here's how the app looks.
+![MRNET_GIF](https://github.com/ArupSankarRoy/INTELLIGENT-RADIOLOGIST-ASSISTANT/assets/115450599/372e4f44-fb65-4231-98b5-f788b13e2144)
+
+
+## Model Description
 MRNet utilizes two main models:
 
 - **MRNet**: A model for analyzing single MRI planes based on AlexNet architecture.
