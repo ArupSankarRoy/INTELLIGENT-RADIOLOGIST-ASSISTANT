@@ -82,6 +82,8 @@ MRNet utilizes two main models:
 
 - **MRNet**: A model for analyzing single MRI planes based on AlexNet architecture.
 - **TripleMRNet**: An extended model that handles MRI scans from three different planes, using either AlexNet or ResNet18 as the backbone.
+- For more details, check this [paper](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002699) 
+
 
 ## Usage
 
@@ -93,6 +95,3 @@ MRNet utilizes two main models:
 
 Contributions to the MRNet project are welcome. Please create a pull request or open an issue if you have suggestions or find any bugs.
 
----
-
-For more information, refer to the [project documentation](https://github.com/yourusername/mrnet-webapp/wiki). Developed as an internship project at iNeuron Intelligence Pvt. Ltd.
