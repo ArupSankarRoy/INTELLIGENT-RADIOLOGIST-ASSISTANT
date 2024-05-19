@@ -91,7 +91,7 @@ MRNet utilizes two main models:
 2. **Generate Report**: After uploading, click on the "predict" button to process the planes and csv file and view the results.
 3. **View Analysis**: The report page will display detailed analysis through various visualizations and probability metrics.
 
-**Check out this demo video.**
+**Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=drivesdk)**
 ## Contributing
 
 Contributions to the MRNet project are welcome. Please create a pull request or open an issue if you have suggestions or find any bugs.
