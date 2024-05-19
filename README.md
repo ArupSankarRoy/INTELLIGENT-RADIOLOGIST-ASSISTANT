@@ -14,7 +14,7 @@ This a web application designed to analyze knee MRI scans for the detection of t
 
 - **File Upload**: 
   - Users can upload MRI images from axial, coronal, and sagittal planes.
-  - A blank CSV file must also be uploaded for analysis.
+  - A blank CSV file must also be uploaded for writing the probabilities.
 
 - **Report Generation**: 
   - Detailed reports are generated after processing the uploaded images and blank CSV file.
