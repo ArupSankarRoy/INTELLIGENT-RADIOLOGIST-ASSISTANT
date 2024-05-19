@@ -8,6 +8,9 @@ import pandas as pd
 import shutil
 from predictions import *
 from plots import *
+import check_models_exist
+import sys
+import rarfile
 
 app = Flask(__name__)
 socketio = SocketIO(app)
@@ -126,4 +129,39 @@ def upload_files():
     return 'Error uploading files'
 
 if __name__ == '__main__':
+    
+    RESET_COLOR = '\033[0m'
+    RED_COLOR = '\033[91m'
+    GREEN_COLOR='\033[32m'
+    CYAN_COLOR = '\033[36m'
+    YELLOW_COLOR = '\033[36m'
+
+    rar_file_path = os.path.join(os.getcwd(), 'MODELS.rar')
+    model_folder_path = os.path.join(os.getcwd(), 'MODELS')
+    
+    if os.path.exists(rar_file_path) and (not os.path.exists(model_folder_path) or (len(os.listdir(model_folder_path)) >= 0 and len(os.listdir(model_folder_path)) <3)):
+       
+        try:
+            print(f'{CYAN_COLOR}Wait a minute, starting RAR file extraction...{RESET_COLOR}')
+            with rarfile.RarFile(rar_file_path) as rar:
+                # Extract RAR file
+                rar.extractall(f"{os.getcwd()}")
+                rar.close()
+            print(f'{GREEN_COLOR}MODELS.rar has been extracted successfully.{RESET_COLOR}')
+        except FileNotFoundError:
+            print(f'{RED_COLOR}Error: RAR file not found..{RESET_COLOR}')
+            sys.exit(1)
+        except Exception as e:
+            print(f'{RED_COLOR}Error during extraction: {e}{RESET_COLOR}')
+            print(f'{RED_COLOR}THIS ERROR MIGHT OCCUR BECAUSE THE "WINRAR" PATH IS NOT SET IN "SYSTEM\'S EDIT ENVIRONMENT VARIABLES".{RESET_COLOR}')
+            sys.exit(1)
+
+    elif check_models_exist.model_exist_count(model_folder_path) == 3:
+        print(f'{GREEN_COLOR}OK, you are ready to go --->{RESET_COLOR}')
+
+    else:
+        print(f'{RED_COLOR}Something is not correct!{RESET_COLOR}')
+        print(f'{RED_COLOR}MODELS.rar or MODELS folder not found!!{RESET_COLOR}')
+        sys.exit(1)
+
     socketio.run(app, host='127.0.0.1', port=5000, debug=True, allow_unsafe_werkzeug=True)
