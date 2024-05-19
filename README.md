@@ -31,23 +31,47 @@ This a web application designed to analyze knee MRI scans for the detection of t
 ## Installation
 
 To install and run the MRNet web application locally, follow these steps:
+1. **Create a database**:
+    ```sh
+    -- I'm using MySQL database here
+    USE `patient-details-system`; -- It's my database name
 
-1. **Clone the repository**:
+    -- I'm creating a table named "user," but you can use your own table name.
+    CREATE TABLE `user` (
+      -- Don't change anything here
+      `userid` int(11) AUTO_INCREMENT PRIMARY KEY,
+      `name` varchar(100) NOT NULL,
+      `phone` varchar(20) NOT NULL,
+      `address` varchar(400) NOT NULL,
+      `password` varchar(255) NOT NULL
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+    -- Inserting a row into the table for testing purposes.(optional)
+    INSERT INTO `user` (`name`, `phone`, `address`, `password`) VALUES
+    ('John', '9874563214', 'Jalpaiguri', '123');
+    ```
+
+2. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/mrnet-webapp.git
-   cd mrnet-webapp
+   git clone https://github.com/ArupSankarRoy/INTELLIGENT-RADIOLOGIST-ASSISTANT.git
+   cd INTELLIGENT-RADIOLOGIST-ASSISTANT
    ```
 
-2. **Install dependencies**:
+3. **Install dependencies**:
    ```sh
    pip install -r requirements.txt
    ```
-
-3. **Run the application**:
+4. **Update `app.py` if you make any changes to the database; otherwise, skip this step.**:
+   ```sh
+   app.config['MYSQL_DB'] = 'patient-details-system' # Replace with your MySQL database name
+   app.config['MYSQL_PORT'] = 3308  # Replace with your MySQL port
+   table_name = 'user' # Change this according to your database table name
+   ```
+5. **Run the application**:
    ```sh
    python app.py
    ```
-
+### Note: These steps will only run if your Python version is <=3.11.0. To check your Python version, use `$ python --version`.
 ## Model Description
 
 MRNet utilizes two main models:
