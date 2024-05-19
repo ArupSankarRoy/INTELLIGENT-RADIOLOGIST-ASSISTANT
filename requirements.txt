@@ -184,3 +184,4 @@ wheel==0.41.2
 wsproto==1.2.0
 y-py==0.5.9
 zipp==3.17.0
+rarfile
