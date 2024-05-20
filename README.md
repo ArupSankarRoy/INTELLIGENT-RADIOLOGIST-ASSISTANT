@@ -94,5 +94,5 @@ MRNet utilizes two main models:
 **Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=drivesdk)**
 ## Contributing
 
-Contributions to the MRNet project are welcome. Please create a pull request or open an issue if you have suggestions or find any bugs.
+Contributions to this project are welcome. Please create a pull request or open an issue if you have suggestions or find any bugs.
 
