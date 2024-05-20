@@ -78,7 +78,7 @@ To install and run the this web app locally, follow these steps:
 
 
 ## Model Description
-MRNet utilizes two main models:
+This project utilizes mainly two models:
 
 - **MRNet**: A model for analyzing single MRI planes based on AlexNet architecture.
 - **TripleMRNet**: An extended model that handles MRI scans from three different planes, using either AlexNet or ResNet18 as the backbone.
