@@ -54,7 +54,7 @@ To install and run the this web app locally, follow these steps:
 2. **Clone the repository**:
    ```sh
    git clone https://github.com/ArupSankarRoy/INTELLIGENT-RADIOLOGIST-ASSISTANT.git
-   cd INTELLIGENT-RADIOLOGIST-ASSISTANT
+   cd "INTELLIGENT-RADIOLOGIST-ASSISTANT"
    ```
 
 3. **Install dependencies**:
