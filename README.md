@@ -13,7 +13,7 @@ It is a web application designed to analyze knee MRI scans for tear classificati
   - **Registration**: New users can sign up to create an account.
 
 - **File Upload**: 
-  - Users can upload MRI planes like axial, coronal, and sagittal (Note:Files must have a .npy extension).
+  - Users can upload MRI planes like axial, coronal, and sagittal (Note:Files to be uploaded must have a .npy extension).
   - A blank CSV file must be uploaded to write the probabilities of classifying a specific knee tear.
 
 - **Report Generation**: 
