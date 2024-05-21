@@ -113,7 +113,7 @@ This project utilizes mainly two models:
 - **Clinical Decision Support**: 
     - Assists in treatment planning and patient management.
 
-**Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=sharing)**
+- **Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=sharing)**
 ## Contributing
 
 I appreciate contributions! Feel free to create a pull request or open an issue if you have suggestions or encounter any bugs.
