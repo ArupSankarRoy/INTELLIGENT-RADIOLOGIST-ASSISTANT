@@ -27,11 +27,11 @@ It is a web application developed during my internship at iNeuron Intelligence P
 ## Workflow of this web application
 ![workflow_diagram](https://github.com/ArupSankarRoy/INTELLIGENT-RADIOLOGIST-ASSISTANT/assets/115450599/a2067030-2178-4fc8-9030-daecb4feb40b)
 ## Hardware Requirements
-    - Processor: Any modern multi-core CPU.
-    - Memory (RAM): Minimum 4GB RAM.
-    - Storage: Adequate storage space, preferably SSD.
-    - GPU (Optional): Accelerates deep learning tasks.
-    - Network Connection: Stable internet connection.
+  - Processor: Any modern multi-core CPU.
+  - Memory (RAM): Minimum 4GB RAM.
+  - Storage: Adequate storage space, preferably SSD.
+  - GPU (Optional): Accelerates deep learning tasks.
+  - Network Connection: Stable internet connection.
 
 ## Installation
 
