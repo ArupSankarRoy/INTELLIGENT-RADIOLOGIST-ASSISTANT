@@ -91,7 +91,7 @@ This project utilizes mainly two models:
 2. **Generate Report**: After uploading, click on the "predict" button to process the planes and csv file and view the results.
 3. **View Analysis**: The report page will display detailed analysis through various visualizations and probability metrics.
 
-**Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=drivesdk)**
+**Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=sharing)**
 ## Contributing
 
 I appreciate contributions! Feel free to create a pull request or open an issue if you have suggestions or encounter any bugs.
