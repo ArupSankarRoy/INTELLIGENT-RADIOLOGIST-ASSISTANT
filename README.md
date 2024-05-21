@@ -94,5 +94,5 @@ This project utilizes mainly two models:
 **Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=drivesdk)**
 ## Contributing
 
-Contributions to this project are welcome. Please create a pull request or open an issue if you have suggestions or find any bugs.
+I appreciate contributions! Feel free to create a pull request or open an issue if you have suggestions or encounter any bugs.
 
