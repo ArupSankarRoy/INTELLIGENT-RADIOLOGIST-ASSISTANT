@@ -4,7 +4,7 @@
 
 ## Overview
 
-It is a web application designed to analyze knee MRI scans for tear classification using deep learning models. Developed as an internship project at iNeuron Intelligence Pvt. Ltd., This application uses TripleMRNet to utilize the capabilities of AlexNet and ResNet18 architectures, to process MRI images from axial, sagittal, and coronal planes.It generates detailed reports with visualizations and probability metrics, aiding in the diagnosis and understanding of tears.
+It is a web application developed during my internship at iNeuron Intelligence Pvt. Ltd., designed to analyze knee MRI scans for tear classification using deep learning models. I integrated TripleMRNet, harnessing the capabilities of AlexNet and ResNet18 architectures to process MRI images from axial, sagittal, and coronal planes. The result is a comprehensive tool that generates detailed reports with visualizations and probability metrics, aiding in the diagnosis and understanding of tears.
 
 ## Key Features
 
@@ -13,8 +13,8 @@ It is a web application designed to analyze knee MRI scans for tear classificati
   - **Registration**: New users can sign up to create an account.
 
 - **File Upload**: 
-  - Users can upload MRI planes like axial, coronal, and sagittal (Note:Files to be uploaded must have a .npy extension).
-  - A blank CSV file must be uploaded to write the probabilities of classifying a specific knee tear.
+  - Users can upload MRI scans in axial, coronal, and sagittal planes (Note: Files must have a .npy extension).
+  - A blank CSV file must be uploaded to record the probabilities of classifying a specific knee tear.
 
 - **Report Generation**: 
   - Detailed reports are generated after processing the uploaded images and blank CSV file.
@@ -26,7 +26,12 @@ It is a web application designed to analyze knee MRI scans for tear classificati
  
 ## Workflow of this web application
 ![workflow_diagram](https://github.com/ArupSankarRoy/INTELLIGENT-RADIOLOGIST-ASSISTANT/assets/115450599/a2067030-2178-4fc8-9030-daecb4feb40b)
-
+## Hardware Requirements
+    - Processor: Any modern multi-core CPU.
+    - Memory (RAM): Minimum 4GB RAM.
+    - Storage: Adequate storage space, preferably SSD.
+    - GPU (Optional): Accelerates deep learning tasks.
+    - Network Connection: Stable internet connection.
 
 ## Installation
 
