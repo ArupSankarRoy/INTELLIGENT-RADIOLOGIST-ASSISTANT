@@ -4,7 +4,7 @@
 
 ## Overview
 
-This is a web application designed to analyze knee MRI scans for the detection of tears using deep learning models. Developed as an internship project at iNeuron Intelligence Pvt. Ltd., MRNet utilizes PyTorch, specifically leveraging the capabilities of AlexNet and ResNet18 architectures, to process MRI images from axial, sagittal, and coronal planes. The application generates detailed reports with visualizations and probability metrics, aiding in the diagnosis and understanding of tears.
+It is a web application designed to analyze knee MRI scans for the detection of tears using deep learning models. Developed as an internship project at iNeuron Intelligence Pvt. Ltd., MRNet utilizes PyTorch, specifically leveraging the capabilities of AlexNet and ResNet18 architectures, to process MRI images from axial, sagittal, and coronal planes. The application generates detailed reports with visualizations and probability metrics, aiding in the diagnosis and understanding of tears.
 
 ## Key Features
 
