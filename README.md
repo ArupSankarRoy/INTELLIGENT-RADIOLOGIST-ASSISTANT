@@ -1,5 +1,5 @@
 ![ineuron](https://user-images.githubusercontent.com/57321948/196933065-4b16c235-f3b9-4391-9cfe-4affcec87c35.png)
-# INTELLIGENT RADIOLOGIST ASSISTANT- A web application for classifying tears in knee MRI images
+# INTELLIGENT RADIOLOGIST ASSISTANT- An optimized web application designed specifically for classifying tears in knee MRI images.
 
 
 ## Overview
