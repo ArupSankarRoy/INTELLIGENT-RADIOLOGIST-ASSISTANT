@@ -92,25 +92,25 @@ This project utilizes mainly two models:
 
 
 ## Application Benefits and Impact on Radiology
-1. **Enhanced Diagnostic Accuracy**: 
+- **Enhanced Diagnostic Accuracy**: 
    - Improves precision of knee abnormality diagnosis.
 
-2. **Efficient Workflow**: 
+- **Efficient Workflow**: 
    - Streamlines MRI analysis, reducing manual effort.
 
-3. **Improved Patient Care**: 
+- **Improved Patient Care**: 
    - Leads to better treatment outcomes for patients.
 
-4. **Educational Tool**: 
+- **Educational Tool**: 
    - Provides insights for radiology trainees and students.
 
-5. **Research Support**: 
+- **Research Support**: 
    - Facilitates studies on diagnostic algorithms.
 
-9. **Cost-Effectiveness**: 
+- **Cost-Effectiveness**: 
    - Offers savings to healthcare institutions.
 
-10. **Clinical Decision Support**: 
+- **Clinical Decision Support**: 
     - Assists in treatment planning and patient management.
 
 **Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=sharing)**
