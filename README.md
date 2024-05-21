@@ -71,7 +71,7 @@ To install and run the this web app locally, follow these steps:
    ```sh
    python app.py
    ```
-**After completing the previous steps, enter "http://127.0.0.1:5000/" in Chrome's address bar or click the site address in cmd to redirect to the site.**
+**After completing the previous steps, enter "http://127.0.0.1:5000/" in Chrome's address bar or click this site address in cmd to redirect to the site.**
 ### Note: These steps will only run if your Python version is <=3.11.0. To check your Python version, use `$ python --version`.
 
 ## Here's how the app looks.
