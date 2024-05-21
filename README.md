@@ -91,11 +91,27 @@ This project utilizes mainly two models:
 - For more details, check this [paper](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002699) 
 
 
-## Usage
+## Application Benefits and Impact on Radiology
+1. **Enhanced Diagnostic Accuracy**: 
+   - Improves precision of knee abnormality diagnosis.
 
-1. **Upload MRI Planes and a blank csv file**: Navigate to the upload section and upload the required files.
-2. **Generate Report**: After uploading, click on the "predict" button to process the planes and csv file and view the results.
-3. **View Analysis**: The report page will display detailed analysis through various visualizations and probability metrics.
+2. **Efficient Workflow**: 
+   - Streamlines MRI analysis, reducing manual effort.
+
+3. **Improved Patient Care**: 
+   - Leads to better treatment outcomes for patients.
+
+4. **Educational Tool**: 
+   - Provides insights for radiology trainees and students.
+
+5. **Research Support**: 
+   - Facilitates studies on diagnostic algorithms.
+
+9. **Cost-Effectiveness**: 
+   - Offers savings to healthcare institutions.
+
+10. **Clinical Decision Support**: 
+    - Assists in treatment planning and patient management.
 
 **Check out this [demo video.](https://drive.google.com/file/d/1QHb9iWCWlgbeszTZhjt41UYnS5MiUH-F/view?usp=sharing)**
 ## Contributing
